@@ -23,9 +23,11 @@ module bitwise_operator();
   end 
 endmodule
 
-//output 
+output 
 a=ff00f0ff b-00ffff00 a&b=0000f000
 a=ff00f0ff b=00ffff00 a|b=ffffffff
 a=ff00f0ff b=00ffff00 a^b=ffff0fff
 a=ff00f0ff b=00ffff00 a~^b=0000f000
 a=ff00f0ff b=00ffff00 a^~b=0000f000
+a=ff00f0ff ~a=00ff0f00
+b=00ffff00  ~b=ff0000ff
