@@ -15,10 +15,10 @@ module bitwise_operator();
     $display("a=%h b=%h a~^b=%h",a,b,i);
     i=a^~b;
     $display("a=%h b=%h a^~b=%h",a,b,i);
-   // i=~a;
-   // $display("a=%h  ~a=%h",a);
-    //i=~b;
-    //$display("b=%h  ~b=%h",b);
+    i=~a;
+    $display("a=%h  ~a=%h",a);
+    i=~b;
+    $display("b=%h  ~b=%h",b);
     
   end 
 endmodule
