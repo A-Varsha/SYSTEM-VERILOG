@@ -1,6 +1,6 @@
 class transaction;
    rand bit rst;
-  bit count;
+   bit[2:0] count;
   
 function void func(string name = "default");
     $display("   %s      ",name);
